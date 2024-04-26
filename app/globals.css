@@ -1,0 +1,292 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&family=Noto+Nastaliq+Urdu:wght@400..700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+    --foreground-color: #FFFFFF;
+    --background-color: #1A1A1A;
+}
+
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-color: #FFFFFF;
+        --background-color: #1A1A1A;
+    }
+}
+
+body {
+    color: var(--foreground-color);
+    background-color: var(--background-color);
+    font-family: 'tajawal', serif
+
+}
+
+* {
+    transition: ease-in-out 0.2s;
+
+}
+
+
+.homemenu-container {
+    width: 90%;
+    text-align: center;
+    margin: auto;
+}
+
+
+.main-container {
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.footer {
+    width: 100%;
+
+}
+
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 3%;
+}
+
+.video-container {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6%;
+    border-radius: 20px !important;
+    place-items: center;
+    background-position: center
+}
+
+
+.btn-primary {
+    background-color: rgb(127 29 29) !important;
+    outline: rgb(127 29 29) !important;
+    color: white !important;
+    border: rgb(127 29 29);
+
+}
+
+.bg-primary {
+    background-color: #FE8403;
+    transition: background-color ease-in-out 0.2s;
+}
+
+.bg-primary:hover {
+    background-color: #e17604;
+    /*transition: all ease-in-out 0.2s;*/
+
+}
+
+.hero-btn-container {
+    align-items: center;
+    align-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/*#870103*/
+.spannn {
+    font-family: "Noto Nastaliq Urdu", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #ee8f30;
+
+}
+
+
+.card-img {
+    width: 300px !important;
+    height: 300px !important;
+
+}
+
+@media only screen
+
+and (-webkit-min-device-pixel-ratio: 1)
+and (min-device-width: 768px)
+and (max-device-width: 1007px) {
+    .card-img {
+        width: 200px !important;
+        height: 200px !important;
+
+    }
+
+}
+
+.box {
+    width: 100%;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}
+
+hr {
+    /*border: .5px solid #000;*/
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.hr-line {
+    -moz-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.description {
+    width: 200px; /* Adjust this value according to your design */
+    overflow: hidden; /* Optional: hide overflow if the description is too long */
+    text-overflow: ellipsis; /* Optional: add ellipsis for overflow text */
+    direction: rtl;
+
+}
+.title-rtl{
+    direction: rtl;
+}
+.specials {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 3%;
+}
+
+.image-container {
+    margin: 00px;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+/*----------------*/
+
+.ribbon-container {
+
+    display: inline-block;
+}
+
+/*.soon{*/
+/*    filter: grayscale(5);*/
+/*}*/
+/*-------*/
+.swiper-slide {
+
+}
+
+.swiper-container-main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-top: 5%;
+}
+
+.swiper_container {
+    /*padding: 2rem 0;*/
+    /*position: relative;*/
+}
+
+.swiper-slide {
+    width: 8rem;
+    height: 13rem;
+    /*position: relative;*/
+}
+
+@media (max-width: 500px) {
+    .swiper_container {
+        height: 13rem;
+    }
+
+    .swiper-slide {
+        width: 8rem !important;
+        height: 10rem !important;
+    }
+
+    .swiper-slide img {
+        width: 8rem !important;
+        height: 10rem !important;
+        object-fit: cover;
+    }
+
+    .swiper-container-main {
+        margin-left: auto;
+        margin-right: auto;
+        width: 95%;
+    }
+}
+
+.swiper-slide img {
+    width: 15rem;
+    height: 18rem;
+    border-radius: 2rem;
+    object-fit: cover;
+    max-width: fit-content;
+}
+
+.swiper-slide-shadow-left,
+.swiper-slide-shadow-right {
+    display: none;
+}
+
+
+.swiper-slide-content {
+    position: relative;
+    text-align: center;
+}
+
+.swiper-slide-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.swiper-slide-content h1 {
+
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.modal {
+    overscroll-behavior: none !important;
+}
+
+.modal-box .modal{
+    width: 100%;
+}
+@media (min-width: 640px){
+    .modal-box .modal {
+        max-width: 32rem;
+    }
+}
+
+.language{
+    pointer-events: none;
+    cursor: default;
+}

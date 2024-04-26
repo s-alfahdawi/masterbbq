@@ -1,0 +1,32 @@
+{
+  "meat": [
+    {
+      "id": "1",
+      "name": "دالاس",
+      "price": "33,000 IQD",
+      "photo": "/grill/6.jpg",
+      "description": ""
+    },
+    {
+      "id": "1",
+      "name": "دالاس",
+      "price": "33,000 IQD",
+      "photo": "/grill/6.jpg",
+      "description": ""
+    },
+    {
+      "id": "1",
+      "name": "دالاس",
+      "price": "33,000 IQD",
+      "photo": "/grill/6.jpg",
+      "description": ""
+    },
+    {
+      "id": "1",
+      "name": "دالاس",
+      "price": "33,000 IQD",
+      "photo": "/grill/6.jpg",
+      "description": ""
+    }
+  ]
+}
