@@ -1,6 +1,6 @@
 import Image from "next/image"
-import photo1 from "/public/images/wd2.jpg"
-import photo2 from "/public/images/wdcopy.jpg"
+import photo1 from "/public/images/wd2.webp"
+import photo2 from "/public/images/wdcopy.webp"
 import Link from "next/link";
 import {meat} from "@/app/_api/rawmeat.json";
 
