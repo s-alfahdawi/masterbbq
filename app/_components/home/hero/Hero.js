@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function Hero() {
     return (
         <main className="">
-            <div className="hero" style={{backgroundImage: 'url(/images//DSC06405.webp)', minHeight: '450px'}}>
+            <div className="hero" style={{backgroundImage: 'url(/images//DSC06405.jpg)', minHeight: '450px'}}>
                 <div className="hero-overlay bg-black bg-opacity-20"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
