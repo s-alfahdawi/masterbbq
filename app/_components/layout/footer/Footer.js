@@ -10,7 +10,7 @@ export default function Footer() {
 
 
         <footer className="footer p-4 md:p-6 bg-neutral text-neutral-content flex items-center justify-between">
-            <Image src="/images/1.png" alt="logo" width="100" height="100"/>
+            <Image src="/images/1.webp" alt="logo" width="100" height="100"/>
             <nav className="grid grid-flow-col gap-4">
                 <Link href={`https://www.instagram.com/masterbbq.erbil/`}>
                     <RiInstagramFill size="35"/>
