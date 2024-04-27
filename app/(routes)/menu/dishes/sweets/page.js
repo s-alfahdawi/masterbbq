@@ -10,7 +10,7 @@ export default function Sweets() {
             <div>
                 <div className="">
                     <div className="hero"
-                         style={{backgroundImage: `url(/images/${SweetsCategory.category_photo})`, minHeight: '450px'}}>
+                         style={{backgroundImage: `url(${SweetsCategory.category_photo})`, minHeight: '450px'}}>
                         <div className=""></div>
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">
@@ -26,7 +26,7 @@ export default function Sweets() {
                                 <div key={dish.id} className="card bg-base-100 shadow-xl max-w-md mx-auto">
                                     <figure className="px-10 pt-10">
                                         <img
-                                            src={`/images/${dish.photo}`}
+                                            src={`${dish.photo}`}
                                             alt={dish.name}
                                             className="rounded-xl card-img object-cover "
                                         />

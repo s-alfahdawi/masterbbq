@@ -7,21 +7,21 @@ import time from "/public/svgs/Linear/Time/Clock Circle.svg";
 
 export default function Contact() {
     return (
-        <footer className="footer contact bg-base-100 mb-10 text-right  lg:w-[70%] md:w-[90%] sm:w-[90%] p-8 md:p-10 text-lg text-white/70  flex flex-wrap md:flex-nowrap  justify-between">
+        <footer className="footer contact bg-base-100 mb-10 mt-10 text-right  lg:w-[70%] md:w-[90%] sm:w-[90%] p-8 md:p-10 text-lg text-white/70  flex flex-wrap md:flex-nowrap  justify-between">
             <nav className="w-full hover:text-white/100 md:w-auto mb-4 md:mb-0 md:mr-4  flex flex-col items-center">
 
-                <Image src={location} alt={location} width={40} height={40}/>
+                <Image src={location} alt={location} width={30} height={30}/>
                 <p style={{ maxWidth: '200px' }}>من الساعة 12:00 ظهرا وحتى 12:00 مساء</p>
             </nav>
             <nav className="w-full hover:text-white/100 md:w-auto mb-4 md:mb-0 md:mr-4 text-right flex flex-col items-center">
-                <Image src={phone} alt={phone} width={40} height={40}/>
+                <Image src={phone} alt={phone} width={30} height={30}/>
                 <p className="">+964 750 507 22 44</p>
                 <p className="">+964 772 707 22 44</p>
                 <p className="">+964 750 507 22 66</p>
                 <p className="">info@masterbbq.com</p>
             </nav>
             <nav className="w-full hover:text-white/100 md:w-auto flex flex-col items-center">
-                <Image src={time} alt={time} width={40} height={40}/>
+                <Image src={time} alt={time} width={30} height={30}/>
                 <p style={{ maxWidth: '200px' }}>شارع 100 متر - سايدين تويوتا ساز-  MRF 5 - مقابل حديقة ساكورا</p>
             </nav>
             <aside className="w-full md:w-72 mb-6 md:mb-0 md:mr-6">

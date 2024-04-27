@@ -10,7 +10,7 @@ export default function HotAppetizers() {
             <div>
                 <div className="">
                     <div className="hero"
-                         style={{backgroundImage: `url(/images/${HotAppetizersCategory.category_photo})`, minHeight: '450px'}}>
+                         style={{backgroundImage: `url(${HotAppetizersCategory.category_photo})`, minHeight: '450px'}}>
                         <div className=""></div>
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">
@@ -25,11 +25,8 @@ export default function HotAppetizers() {
                             {HotAppetizersCategory.dishes.map((dish) => (
                                 <div key={dish.id} className="card bg-base-100 shadow-xl max-w-md mx-auto">
                                     <figure className="px-10 pt-10">
-                                        <img
-                                            src={`/images/${dish.photo}`}
-                                            alt={dish.name}
-                                            className="rounded-xl card-img object-cover "
-                                        />
+                                        <img src={`${dish.photo}`} alt={dish.name} className="rounded-xl card-img" />
+
 
                                     </figure>
                                     <div className="card-body items-center text-center">

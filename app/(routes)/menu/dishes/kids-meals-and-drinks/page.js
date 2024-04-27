@@ -1,5 +1,5 @@
 export default function Brisket(){
-    return<h1>briskettttt</h1>
+    return<h1>soon</h1>
 }
 
 

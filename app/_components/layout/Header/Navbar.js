@@ -52,7 +52,7 @@ export default function Navbar() {
                 </div>
                 <div className="flex items-center">
                     <Image
-                        src="/images/1.png"
+                        src="https://masterbbqerbil.net/images/1.webp"
                         alt="hero image"
                         width={70}
                         height={70}

@@ -73,7 +73,7 @@ export default function Shisha() {
             <div>
                 <div className="">
                     <div className="hero"
-                         style={{backgroundImage: `url(/images/${shishaCategory.category_photo})`, minHeight: "450px"}}>
+                         style={{backgroundImage: `url(${shishaCategory.category_photo})`, minHeight: "450px"}}>
                         <div className=""></div>
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">
@@ -90,11 +90,9 @@ export default function Shisha() {
                                     <div className="card bg-base-100 shadow-xl mx-auto">
                                         <div className="image-container">
                                             <figure className="px-10 pt-10">
-                                                <img
-                                                    src={`/images/${subcategory.photo}`}
-                                                    alt={subcategory.name}
-                                                    className="rounded-xl  object-cover"
-                                                />
+                                                <img src={`${subcategory.photo}`} alt={subcategory.name} className="rounded-xl  object-cover" />
+
+
                                             </figure>
 
                                             <div className="card-body">

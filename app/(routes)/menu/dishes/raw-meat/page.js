@@ -18,11 +18,8 @@ const Rawmeat = () => {
                             <div key={rawmeat.id} className="card bg-base-100 shadow-xl max-w-md mx-auto">
                                 <div className="image-container">
                                     <figure className="px-10 pt-10">
-                                        <img
-                                            src={`/images/${rawmeat.photo}`}
-                                            alt={rawmeat.name}
-                                            className="rounded-xl card-img object-cover"
-                                        />
+                                        <img src={`${dish.photo}`} alt={dish.name} className="rounded-xl card-img" />
+
                                     </figure>
                                     <div className="card-body items-center text-center">
                                         <h2 className="card-title title-rtl">{rawmeat.name}</h2>

@@ -11,7 +11,7 @@ export default function Pizza() {
             <div>
                 <main className="">
                     <div className="hero"
-                         style={{backgroundImage: `url(/images/${BurgerCategory.category_photo})`, minHeight: '450px'}}>
+                         style={{backgroundImage: `url(${BurgerCategory.category_photo})`, minHeight: '450px'}}>
 
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">
@@ -26,11 +26,8 @@ export default function Pizza() {
                             {BurgerCategory.dishes.map((dish) => (
                                 <div key={dish.id} className="card bg-base-100 shadow-xl max-w-md mx-auto">
                                     <figure className="px-10 pt-10">
-                                        <img
-                                            src={`/images/${dish.photo}`}
-                                            alt={dish.name}
-                                            className="rounded-xl card-img object-cover"
-                                        />
+                                        <img src={`${dish.photo}`} alt={dish.name} className="rounded-xl card-img" />
+
                                     </figure>
                                     <div className="card-body items-center text-center">
                                         <h2 className="card-title title-rtl">{dish.name}</h2>

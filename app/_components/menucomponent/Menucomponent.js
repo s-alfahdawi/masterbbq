@@ -23,7 +23,7 @@ const Menu = ({categories}) => {
                                 <Link href={`/menu/${category.link}`}>
                                     <figure className="px-10 pt-10">
                                         <img
-                                            src={`/images/${category.category_photo}`}
+                                            src={`${category.category_photo}`}
                                             alt={category.category_name}
                                             className="rounded-xl card-img object-cover "
                                         />

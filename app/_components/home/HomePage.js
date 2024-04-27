@@ -8,6 +8,7 @@ import Carousel from "@/app/_components/home/carousel/Carousel";
 import {statics} from "@/app/_api/statics.json";
 import Contact from "@/app/_components/home/contact-info/Contact";
 import Specials from "@/app/_components/home/specials/specials";
+import Image from "next/image";
 
 export default function HomePage() {
     return (
@@ -17,9 +18,8 @@ export default function HomePage() {
             <HomeMenu categories={menu}/>
             <Specials/>
             <Carousel/>
-            <Contact/>
             <VideoComponent/>
-
+            <Contact/>
         </div>
     );
 }
