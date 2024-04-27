@@ -188,7 +188,6 @@ hr {
 }
 
 
-
 /*----------------*/
 
 .ribbon-container {
@@ -204,27 +203,24 @@ hr {
 }
 
 @media only screen and (max-width: 768px) {
-    /*.swiper-text-container{*/
-    /*    width: 230px;*/
-    /*   margin-right: auto;*/
-    /*    margin-left: auto;*/
-    /*    text-align: center;*/
-    /*    top: 90%;*/
-    /*}*/
+
     .swiper-container-main {
         width: 90%;
         margin: 8% auto 5%;
 
     }
-    .swiper-slide-content{
+
+    .swiper-slide-content {
         width: 230px !important;
     }
+
     .swiper-slide img {
 
         border-radius: 2rem;
         object-fit: cover;
         max-width: fit-content;
     }
+
     .slide-with-gradient::after {
         content: "";
         position: absolute;
@@ -236,19 +232,72 @@ hr {
         z-index: 1;
         border-radius: 0.5rem;
     }
-    .swiper-slide-content img{
+
+    .swiper-slide-content img {
         width: 230px !important;
         height: 100% !important;
         object-fit: cover;
     }
+
     .swiper-slide {
         border-radius: 10px !important;
     }
 }
+@media (max-width: 375px) {
+    .swiper-slide {
+        width: 10rem !important;
+        height: 10rem !important;
+    }
 
-@media (max-width: 500px) {
+    .swiper-slide img {
+        width: 10rem !important;
+        height: 10rem !important;
+        object-fit: cover;
+    }
+    .swiper-slide-content {
+        position: relative;
+        text-align: center;
+        width: 10rem !important;
+        height: 10rem !important;
+    }
+    .swiper-container-main {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        align-content: center;
+        align-items: center;
+    }
+
+}
+@media (max-width: 400px) and (max-width: 300px) {
+    .swiper-slide {
+        width: 10rem !important;
+        height: 10rem !important;
+    }
+
+    .swiper-slide img {
+        width: 10rem !important;
+        height: 10rem !important;
+        object-fit: cover;
+    }
+    .swiper-slide-content {
+        position: relative;
+        text-align: center;
+        width: 10rem !important;
+        height: 10rem !important;
+    }
+    .swiper-container-main {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+}
+
+
+@media  (max-width: 500px) {
     .swiper_container {
-        height: 14rem;
+        height: 10rem;
 
     }
 
@@ -326,9 +375,8 @@ hr {
     padding: 10px;
     border-radius: 5px;
     text-align: center;
-    font-size: 25px ;
+    font-size: 25px;
     z-index: 2;
-
 
 
 }
@@ -360,4 +408,10 @@ hr {
 .bg-base-100 {
 
     background-color: #191e21 !important;
+}
+
+.menu-button {
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+
 }

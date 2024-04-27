@@ -12,9 +12,9 @@ export default function Hero() {
                             طعم <span className="spannn">لا يقاوم</span>
                         </h1>
 
-                        <div className="flex flex-col items-center">
+                        <div className="flex flex-col mt-5 items-center">
                             <Link href="/menu"
-                                  className="bg-primary font-semibold  text-white text-lg px-10 py-5  rounded-full  flex items-center">
+                                  className="bg-primary mt-2 font-semibold  text-white text-lg px-8 menu-button   rounded-full  flex items-center">
                                 عرض المنيو
 
                             </Link>
