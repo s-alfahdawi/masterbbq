@@ -69,14 +69,12 @@
 // }
 
 import { menu } from "@/app/_api/menu.json";
-import Image from "next/image";
-import { useState } from "react"; // Import useState for modal state
+import { useState } from "react";
 
 export default function Burger() {
-    const [selectedImage, setSelectedImage] = useState(null); // State for selected image
-    const [isOpen, setIsOpen] = useState(false); // State for modal visibility
+    const [selectedImage, setSelectedImage] = useState(null);
+    const [isOpen, setIsOpen] = useState(false);
 
-    // Find the category with id=1 (Box Meal)
     const BurgerCategory = menu.find((category) => category.category_id === "12");
 
     const handleOpenModal = (image) => {

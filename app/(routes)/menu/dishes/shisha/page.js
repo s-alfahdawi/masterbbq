@@ -23,9 +23,9 @@ export default function Shisha() {
                         </div>
                     </div>
                 </div>
-                <div className="container mx-auto px-4 py-8">
-                    <div className="grid grid-cols-1 gap-4">
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-x-40 gap-x-30 gap-y-10">
+                <div className="container mx-auto px-4  py-8">
+                    <div className="grid grid-cols-1 gap-4 md:gap-1 ">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  ml-auto mr-auto lg:gap-x-40 gap-x-30 md:gap-x-10 gap-y-10">
                             {subcategories && subcategories.map((subcategory) => (
                                 <div key={subcategory.id} className="max-w-xl">
                                     <div className="card bg-base-100 shadow-xl mx-auto">

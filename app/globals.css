@@ -182,7 +182,7 @@ hr {
 @media only screen and (max-width: 768px) {
     /* Styles for small screens (e.g., reduce image width) */
     .image-container img {
-        width: 300px !important; /* Adjust as needed */
+        width: 350px !important; /* Adjust as needed */
         height: auto; /* Maintain aspect ratio */
     }
 }

@@ -8,8 +8,10 @@ export default function Hero() {
                 <div className="hero-overlay bg-black bg-opacity-20"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
-                        <h1 className="mb-5  text-7xl text-white font-bold noto-nashk-font ">
-                            طعم <span className="spannn">لا يقاوم</span>
+                        <h1 className="mb-5  lg:text-7xl md:text-7xl text-white sm:text-5xl font-bold noto-nashk-font ">
+                           طعم
+                            <br/>
+                            <span className="spannn">لا يقاوم</span>
                         </h1>
 
                         <div className="flex flex-col mt-5 items-center">
