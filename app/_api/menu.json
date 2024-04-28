@@ -1602,7 +1602,7 @@
       "category": "american pizza",
       "category_name": "البيتزا الامريكية",
       "category_photo": "https://masterbbqerbil.net/images/pizza/category4.webp",
-      "link": "/dishes/pizza",
+      "link": "/dishes/american-pizza",
       "dishes": [
         {
           "id": "1",
@@ -1746,18 +1746,20 @@
           "photo": "https://masterbbqerbil.net/images/burger/19.webp",
           "description": "280 غرام من اللحم المشوي. ماستر صوص.بصل مكرمل .حبش .خس .مخلل.طماطم .جبنة شيدر"
         },
+
         {
           "id": "15",
-          "name": "فاهيتا دجاج",
-          "price": "7,000 IQD",
-          "photo": "https://masterbbqerbil.net/images/burger/12.webp",
-          "description": ""
-        },
-        {
-          "id": "16",
           "name": "فاهيتا لحم",
           "price": "9,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/203.webp",
+          "description": ""
+        },
+
+        {
+          "id": "16",
+          "name" : "فاهيتا دجاج",
+          "price": "7,000",
+          "photo": "https://masterbbqerbil.net/images/burger/12.webp",
           "description": ""
         },
         {
@@ -1861,7 +1863,7 @@
           "id": "3",
           "name": "ضلوع غنم مدخنة 500 جرام",
           "price": "27,000 IQD",
-          "photo": "/smoked/22.webp",
+          "photo": "https://masterbbqerbil.net/images/smoked/22.webp",
           "description": ""
         }
       ]

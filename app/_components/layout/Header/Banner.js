@@ -15,7 +15,7 @@ export default function Banner() {
 
                     <div className="flex items-center">
                         <FaPhone style={iconStyleAmber} />
-                        <p className="text-sm ml-2 md:ml-0 md:mr-4">+964 750 507 22 44</p>
+                        <p className="text-sm ml-2 md:ml-0 md:mr-4">+9647727072244</p>
 
                         <div className="flex items-center">
                             <FaLocationDot style={iconStyleAmber} />
@@ -28,7 +28,7 @@ export default function Banner() {
                     <Link href={`https://www.facebook.com/profile.php?id=100092882138492&mibextid=ZbWKwL`}>
                         <FaFacebook style={iconStyleWhite} />
                     </Link>
-                    <Link href={`https://www.instagram.com/masterbbq.erbil/`}>
+                    <Link href={`https://www.instagram.com/masterbbq.erbil?igsh=Njg1ZGJwMnZpMm04`}>
                         <FaInstagram style={iconStyleWhite} />
                     </Link>
 

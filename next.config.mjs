@@ -1,7 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+
     images: {
-        domains: ['masterbbqerbil.net'],
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'masterbbqerbil.net',
+                pathname: '/**',
+            },
+        ],
     },
 };
 

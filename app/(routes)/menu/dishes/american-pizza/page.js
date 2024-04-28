@@ -10,8 +10,10 @@ export default function Pizza() {
         return (
             <div>
                 <main className="">
-                    <div className="hero" style={{backgroundImage: `url(${PizzaCategory.category_photo})`, minHeight: '450px'}}>
-                        <div className="hero-overlay bg-opacity-60"></div>
+
+                    <div className="hero"
+                         style={{backgroundImage: `url(${PizzaCategory.category_photo})`, minHeight: '450px'}}>
+
                         <div className="hero-content text-center text-neutral-content">
                             <div className="max-w-md">
                                 <h1 className="mb-5 text-5xl text-white font-bold">{PizzaCategory.category_name}</h1>
@@ -21,7 +23,7 @@ export default function Pizza() {
                 </main>
                 <div className="container mx-auto px-4 py-8">
                     <div className="flex justify-center pt-10">
-                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-x-40 gap-y-20">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-x-40 gap-x-30 gap-y-10">
                             {PizzaCategory.dishes.map((dish) => (
                                 <div key={dish.id} className="card w-96 bg-base-100 shadow-xl">
                                     <figure className="px-10 pt-10">

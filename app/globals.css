@@ -197,7 +197,7 @@ hr {
 
 /*-----*/
 .swiper-container-main {
-    width: 70%;
+    width: 90%;
     margin: 8% auto 5%;
 
 }
@@ -243,6 +243,7 @@ hr {
         border-radius: 10px !important;
     }
 }
+
 @media (max-width: 375px) {
     .swiper-slide {
         width: 10rem !important;
@@ -254,12 +255,14 @@ hr {
         height: 10rem !important;
         object-fit: cover;
     }
+
     .swiper-slide-content {
         position: relative;
         text-align: center;
         width: 10rem !important;
         height: 10rem !important;
     }
+
     .swiper-container-main {
         margin-left: auto;
         margin-right: auto;
@@ -269,6 +272,7 @@ hr {
     }
 
 }
+
 @media (max-width: 400px) and (max-width: 300px) {
     .swiper-slide {
         width: 10rem !important;
@@ -280,12 +284,14 @@ hr {
         height: 10rem !important;
         object-fit: cover;
     }
+
     .swiper-slide-content {
         position: relative;
         text-align: center;
         width: 10rem !important;
         height: 10rem !important;
     }
+
     .swiper-container-main {
         margin-left: auto;
         margin-right: auto;
@@ -294,8 +300,24 @@ hr {
 
 }
 
+.carousel-text {
 
-@media  (max-width: 500px) {
+    /*   margin: 0;*/
+    /*   padding: 10px;*/
+    /*   border-radius: 5px;*/
+    /*   text-align: center;*/
+    /*   font-size: 40px !important;*/
+    padding-top: -100px !important;
+    margin-top: -100px !important;
+    z-index: 50;
+
+}
+
+.carousel-item {
+    cursor: pointer
+}
+
+@media (max-width: 500px) {
     .swiper_container {
         height: 10rem;
 
@@ -414,4 +436,31 @@ hr {
     padding-top: 15px !important;
     padding-bottom: 15px !important;
 
+}
+
+.carousel-image {
+    width: 350px;
+    height: 350px;
+}
+
+@media (max-width: 580px) {
+    .carousel-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 800px) {
+    .carousel-image {
+        width: 300px;
+        height: 300px;
+    }
+
+    .md-modal {
+        top: -15%;
+    }
+}
+
+.card-title-start {
+    text-align: right;
 }

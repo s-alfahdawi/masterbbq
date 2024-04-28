@@ -21,7 +21,7 @@ export default function SmokedLamb() {
                 </div>
                 <div className="container mx-auto px-4 py-8">
                     <div className="flex justify-center pt-10">
-                        <div className="grid  md:grid-cols-2 lg:grid-cols-2 gap-x-20 md:gap-y-10 gap-y-20">
+                        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-x-40 gap-x-30 gap-y-10">
                             {SmokedlambCategory.dishes.map((dish) => (
                                 <div key={dish.id} className="card bg-base-100 shadow-xl max-w-md mx-auto">
                                     <figure className="px-10 pt-10">

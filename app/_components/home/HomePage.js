@@ -1,4 +1,4 @@
-import {menu} from "@/app/_api/menu.json";
+import menuData from "@/app/_api/menu.json"; // Assuming menu.json has a default export
 import {general_photos} from "@/app/_api/photos.json";
 import Hero from "@/app/_components/home/hero/Hero";
 import HomeMenu from "@/app/_components/home/homeMenu/homeMenu";
@@ -15,7 +15,7 @@ export default function HomePage() {
         <div className="">
 
             <Hero/>
-            <HomeMenu categories={menu}/>
+            <HomeMenu categories={menuData}/>
             <Specials/>
             <Carousel/>
             <VideoComponent/>
