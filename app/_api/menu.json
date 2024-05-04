@@ -58,28 +58,28 @@
         },
         {
           "id": "8",
-          "name": " سلطة VIP",
+          "name": "سلطة VIP",
           "price": "14,000 IQD",
           "photo": "https://masterbbqerbil.net/images/salads/9.webp",
           "description": ""
         },
         {
           "id": "10",
-          "name": " سلطة فتوش",
+          "name": "سلطة فتوش",
           "price": "6,000IQD",
           "photo": "https://masterbbqerbil.net/images/salads/8.webp",
           "description": ""
         },
         {
           "id": "11",
-          "name": " سلطة يونانية ",
+          "name": "سلطة يونانية ",
           "price": "8,000 IQD",
           "photo": "https://masterbbqerbil.net/images/salads/111.webp",
           "description": ""
         },
         {
           "id": "11",
-          "name": " سلطة مانغو ",
+          "name": "سلطة مانغو ",
           "price": "12,000 IQD",
           "photo": "https://masterbbqerbil.net/images/salads/10.webp",
           "description": ""
@@ -1083,7 +1083,7 @@
             },
             {
               "id": "3",
-              "name": "كندر ميلك شيك",
+              "name": "كيندر ميلك شيك",
               "price": "7,000 IQD",
               "photo": "https://masterbbqerbil.net/images/drinks/cold/162.webp",
               "description": ""
@@ -1529,7 +1529,7 @@
         },
         {
           "id": "4",
-          "name": "ﻗﮭوة ﻓﺳﺗق",
+          "name": "قهوة فستق",
           "price": "3,000 IQD",
           "photo": "https://masterbbqerbil.net/images/drinks/hot/13.webp",
           "description": ""
@@ -1550,7 +1550,7 @@
         },
         {
           "id": "7",
-          "name": "ﻗﮭوة ﻻﺗﯾﮫ",
+          "name": "قهوة لاتيه",
           "price": "5,000 IQD",
           "photo": "https://masterbbqerbil.net/images/drinks/hot/114.webp",
           "description": ""
@@ -1571,7 +1571,7 @@
         },
         {
           "id": "10",
-          "name": "ﺷوﻛوﻻﺗﮫ ﻛﺎراﻣﯾل",
+          "name": "شوكولاته كاراميل",
           "price": "6,000 IQD",
           "photo": "https://masterbbqerbil.net/images/drinks/hot/110.webp",
           "description": ""
@@ -1615,7 +1615,7 @@
         },
         {
           "id": "16",
-          "name": "ﺷوﻛوﻻﺗﮫ ﺳﺎﺧﻧﺔ",
+          "name": "شوكولاته ساخنة",
           "price": "5,000 IQD",
           "photo": "https://masterbbqerbil.net/images/drinks/hot/19.webp",
           "description": ""
