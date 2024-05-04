@@ -2,31 +2,63 @@
   "meat": [
     {
       "id": "1",
-      "name": "دالاس",
+      "name": "تي بون ستيك",
       "price": "33,000 IQD",
-      "photo": "/grill/6.webp",
-      "description": ""
+      "photo": "https://masterbbqerbil.net/images/raw/DSC00538 copy.webp",
+      "description": "375 جرام"
     },
     {
       "id": "1",
-      "name": "دالاس",
+      "name": "ريب اي ستيك",
       "price": "33,000 IQD",
-      "photo": "/grill/6.webp",
-      "description": ""
+      "photo": "https://masterbbqerbil.net/images/raw/DSC00542 copy.webp",
+      "description": "375 جرام"
     },
     {
       "id": "1",
-      "name": "دالاس",
+      "name": "دالاس ستيك",
       "price": "33,000 IQD",
-      "photo": "/grill/6.webp",
-      "description": ""
+      "photo": "https://masterbbqerbil.net/images/raw/DSC00545 copy.webp",
+      "description": "375 جرام"
     },
     {
       "id": "1",
-      "name": "دالاس",
-      "price": "33,000 IQD",
-      "photo": "/grill/6.webp",
-      "description": ""
+      "name": "ستربليون ستيك",
+      "price": "22,000 IQD",
+     "photo": "https://masterbbqerbil.net/images/raw/DSC00548 copy.webp",
+      "description": "280 جرام"
+    },
+    {
+      "id": "1",
+      "name": "نيويورك ستيك",
+      "price": "22,000 IQD",
+     "photo": "https://masterbbqerbil.net/images/raw/DSC00550 copy.webp",
+      "description": "280 جرام"
+    },
+    {
+      "id": "1",
+      "name": "فيليه ستيك",
+      "price": "22,000 IQD",
+      "photo": "https://masterbbqerbil.net/images/raw/DSC00552 copy.webp",
+      "description": "300 جرام"
+    }, {
+      "id": "1",
+      "name": "ضلوع غنم",
+      "price": "24,000 IQD",
+     "photo": "https://masterbbqerbil.net/images/raw/DSC00558 copy.webp",
+      "description": "500 جرام - 6 قطع"
+    }, {
+      "id": "1",
+      "name": "توماهوك ستيك",
+      "price": "95,000 IQD",
+     "photo": "https://masterbbqerbil.net/images/raw/DSC00566 copy.webp",
+      "description": "1 كيلو جرام"
+    }, {
+      "id": "1",
+      "name": "قطع برغر ني",
+      "price": "5,000 IQD",
+     "photo": "https://masterbbqerbil.net/images/raw/DSC00700 copy.webp",
+      "description": "140 جرام"
     }
   ]
 }
