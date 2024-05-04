@@ -190,14 +190,14 @@
           "id": "5",
           "name": "فنكر",
           "price": "4,000 IQD",
-          "photo": "https://masterbbqerbil.net/images/appetizers/hotapt/111.webp",
+          "photo": "https://masterbbqerbil.net/images/appetizers/hotapt/110.webp",
           "description": ""
         },
         {
           "id": "5",
           "name": "فنكر بالجبن",
           "price": "7,000 IQD",
-          "photo": "https://masterbbqerbil.net/images/appetizers/hotapt/110.webp",
+          "photo": "https://masterbbqerbil.net/images/appetizers/hotapt/111.webp",
           "description": ""
         },
         {
@@ -508,7 +508,7 @@
       "category_id": "15",
       "category": "smoked",
       "category_name": "الضلوع المدخنة",
-      "category_photo": "https://masterbbqerbil.net/images/smoked/lambsteaks.webp",
+      "category_photo": "https://masterbbqerbil.net/images/smoked/44.webp",
       "link": "dishes/smoked-lamb",
       "dishes": [
         {
