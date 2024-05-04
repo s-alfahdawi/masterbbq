@@ -1,97 +1,98 @@
 {
-  "menu": [  {
-    "category_id": "6",
-    "category": "salads",
-    "category_name": "السلطات",
-    "category_photo": "https://masterbbqerbil.net/images/salads/4.webp",
-    "link": "dishes/salads",
-    "dishes": [
-      {
-        "id": "1",
-        "name": "سلطة ستيك تكساس",
-        "price": "18,000 IQD",
-        "photo": "https://masterbbqerbil.net/images/salads/4.webp",
-        "description": ""
-      },
-      {
-        "id": "2",
-        "name": "سلطة ماستر فرايز",
-        "price": "10,000 IQD",
-        "photo": "https://masterbbqerbil.net/images/salads/5.webp",
-        "description": ""
-      },
-      {
-        "id": "3",
-        "name": "سلطة سيزر دجاج",
-        "price": "10,000 IQD",
-        "photo": "https://masterbbqerbil.net/images/salads/7.webp",
-        "description": ""
-      },
-      {
-        "id": "4",
-        "name": "سلطة الافوكادو",
-        "price": "12,000 IQD",
-        "photo": "https://masterbbqerbil.net/images/salads/3.webp",
-        "description": ""
-      },
-      {
-        "id": "5",
-        "name": "سلطة روكا",
-        "price": "8,000 IQD",
-        "photo": "https://masterbbqerbil.net/images/salads/6.webp",
-        "description": ""
-      },
-      {
-        "id": "6",
-        "name": "سلطة باربيكيو",
-        "price": "14,000 IQD",
-        "photo": "https://masterbbqerbil.net/images/salads/1.webp",
-        "description": ""
-      },
-      {
-        "id": "7",
-        "name": "سلطة مكس ",
-        "price": "12,000 IQD",
-        "photo": "https://masterbbqerbil.net/images/salads/2.webp",
-        "description": ""
-      },
-      {
-        "id": "8",
-        "name": " سلطة VIP",
-        "price": "14,000 IQD",
-        "photo": "https://masterbbqerbil.net/images/salads/9.webp",
-        "description": ""
-      },
-      {
-        "id": "10",
-        "name": " سلطة فتوش",
-        "price": "6,000IQD",
-        "photo": "https://masterbbqerbil.net/images/salads/8.webp",
-        "description": ""
-      },
-      {
-        "id": "11",
-        "name": " سلطة يونانية ",
-        "price": "8,000 IQD",
-        "photo": "https://masterbbqerbil.net/images/salads/111.webp",
-        "description": ""
-      },
-      {
-        "id": "11",
-        "name": " سلطة مانغو ",
-        "price": "12,000 IQD",
-        "photo": "https://masterbbqerbil.net/images/salads/10.webp",
-        "description": ""
-      },
-      {
-        "id": "9",
-        "name": "سلطة حلوم",
-        "price": "8,000 IQD",
-        "photo": "https://masterbbqerbil.net/images/salads/11.webp",
-        "description": ""
-      }
-    ]
-  },
+  "menu": [
+    {
+      "category_id": "6",
+      "category": "salads",
+      "category_name": "السلطات",
+      "category_photo": "https://masterbbqerbil.net/images/salads/4.webp",
+      "link": "dishes/salads",
+      "dishes": [
+        {
+          "id": "1",
+          "name": "سلطة ستيك تكساس",
+          "price": "18,000 IQD",
+          "photo": "https://masterbbqerbil.net/images/salads/4.webp",
+          "description": ""
+        },
+        {
+          "id": "2",
+          "name": "سلطة ماستر فرايز",
+          "price": "10,000 IQD",
+          "photo": "https://masterbbqerbil.net/images/salads/5.webp",
+          "description": ""
+        },
+        {
+          "id": "3",
+          "name": "سلطة سيزر دجاج",
+          "price": "10,000 IQD",
+          "photo": "https://masterbbqerbil.net/images/salads/7.webp",
+          "description": ""
+        },
+        {
+          "id": "4",
+          "name": "سلطة الافوكادو",
+          "price": "12,000 IQD",
+          "photo": "https://masterbbqerbil.net/images/salads/3.webp",
+          "description": ""
+        },
+        {
+          "id": "5",
+          "name": "سلطة روكا",
+          "price": "8,000 IQD",
+          "photo": "https://masterbbqerbil.net/images/salads/6.webp",
+          "description": ""
+        },
+        {
+          "id": "6",
+          "name": "سلطة باربيكيو",
+          "price": "14,000 IQD",
+          "photo": "https://masterbbqerbil.net/images/salads/1.webp",
+          "description": ""
+        },
+        {
+          "id": "7",
+          "name": "سلطة مكس ",
+          "price": "12,000 IQD",
+          "photo": "https://masterbbqerbil.net/images/salads/2.webp",
+          "description": ""
+        },
+        {
+          "id": "8",
+          "name": " سلطة VIP",
+          "price": "14,000 IQD",
+          "photo": "https://masterbbqerbil.net/images/salads/9.webp",
+          "description": ""
+        },
+        {
+          "id": "10",
+          "name": " سلطة فتوش",
+          "price": "6,000IQD",
+          "photo": "https://masterbbqerbil.net/images/salads/8.webp",
+          "description": ""
+        },
+        {
+          "id": "11",
+          "name": " سلطة يونانية ",
+          "price": "8,000 IQD",
+          "photo": "https://masterbbqerbil.net/images/salads/111.webp",
+          "description": ""
+        },
+        {
+          "id": "11",
+          "name": " سلطة مانغو ",
+          "price": "12,000 IQD",
+          "photo": "https://masterbbqerbil.net/images/salads/10.webp",
+          "description": ""
+        },
+        {
+          "id": "9",
+          "name": "سلطة حلوم",
+          "price": "8,000 IQD",
+          "photo": "https://masterbbqerbil.net/images/salads/11.webp",
+          "description": ""
+        }
+      ]
+    },
     {
       "category_id": "5",
       "category": "cold appetizers",
@@ -123,10 +124,11 @@
         {
           "id": "4",
           "name": "حمص بطحينة",
-          "price": "8,000 IQD",
+          "price": "5,000 IQD",
           "photo": "https://masterbbqerbil.net/images/appetizers/cold/14.webp",
           "description": ""
-        },{
+        },
+        {
           "id": "4",
           "name": "حمص بطحينة مع بريسكت",
           "price": "8,000 IQD",
@@ -152,7 +154,7 @@
     {
       "category_id": "4",
       "category": "hot appetizers",
-      "category_name": "المقبلات الحارة",
+      "category_name": "المقبلات الساخنة",
       "category_photo": "https://masterbbqerbil.net/images/appetizers/hotapt/category8.webp",
       "link": "dishes/hot-appetizers",
       "dishes": [
@@ -188,6 +190,13 @@
           "id": "5",
           "name": "فنكر",
           "price": "4,000 IQD",
+          "photo": "https://masterbbqerbil.net/images/appetizers/hotapt/111.webp",
+          "description": ""
+        },
+        {
+          "id": "5",
+          "name": "فنكر بالجبن",
+          "price": "7,000 IQD",
           "photo": "https://masterbbqerbil.net/images/appetizers/hotapt/110.webp",
           "description": ""
         },
@@ -247,7 +256,6 @@
           "photo": "https://masterbbqerbil.net/images/appetizers/hotapt/samboosah-all.webp",
           "description": ""
         },
-
         {
           "id": "15",
           "name": "بطاطا حارة",
@@ -264,7 +272,7 @@
         },
         {
           "id": "17",
-          "name": "بطاطا مقلية مع لحم بريكست",
+          "name": "بطاطا مقلية بالجبن مع لحم بريكست",
           "price": "12,000 IQD",
           "photo": "https://masterbbqerbil.net/images/appetizers/hotapt/113.webp",
           "description": ""
@@ -325,84 +333,91 @@
           "name": "ريب آي ستيك",
           "price": "39,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/6.webp",
-          "description": " 375 جرام لحم بقري امريكي مُعتق , بطاطا حلوة مشوية , صلصلة ستيك "
+          "description": " 375 غرام لحم بقري امريكي مُعتق , بطاطا حلوة مشوية , صلصلة ستيك "
         },
-
         {
           "id": "2",
           "name": "دالاس ستيك",
           "price": "39,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/2.webp",
-          "description": "375 جرام لحم بقري امريكي مُعتق , بطاطا حلوة مشوية صلصلة ستيك "
+          "description": "375 غرام لحم بقري امريكي مُعتق , بطاطا حلوة مشوية صلصلة ستيك "
         },
         {
           "id": "3",
           "name": "ستيك مع البيض",
           "price": "34,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/1.webp",
-          "description": "280 جرام لحم بقري امريكي مُعتق , بيض  , فنكر صلصلة ستيك "
+          "description": "280 غرام لحم بقري امريكي مُعتق , بيض  , فنكر صلصلة ستيك "
         },
         {
           "id": "4",
           "name": "T-bone ستيك",
           "price": "46,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/3.webp",
-          "description": "375 جرام لحم بقري امريكي مُعتق , بطاطا حلوة مشوية صلصلة ستيك , ذرة"
+          "description": "375 غرام لحم بقري امريكي مُعتق , بطاطا حلوة مشوية صلصلة ستيك , ذرة"
         },
         {
           "id": "5",
           "name": "نيويورك ستيك",
           "price": "32,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/4.webp",
-          "description": "280 جرام لحم بقري امريكي مُعتق , بطاطا حلوة مشوية صلصلة ستيك  , ذرة"
+          "description": "280 غرام لحم بقري امريكي مُعتق , بطاطا حلوة مشوية صلصلة ستيك  , ذرة"
         },
         {
           "id": "6",
           "name": "سلمون ستيك",
           "price": "32,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/5.webp",
-          "description": "250 جرام سمك سلمون مشوي بالزبدة والثوم , بطاطا حلوة مشوية  , سبانغ بالثوم والليمون"
+          "description": "250 غرام سمك سلمون مشوي بالزبدة والثوم , بطاطا حلوة مشوية  , سبانغ بالثوم والليمون"
         },
         {
           "id": "7",
-          "name": "ستريبلوين ستيك",
+          "name": "ستربليون ستيك",
           "price": "32,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/str.webp",
-          "description": "280 جرام لحم بقري امريكي مُعتق , بطاطا حلوة مشوية  صلصلة ستيك  , ذرة"
+          "description": "280 غرام لحم بقري امريكي مُعتق , بطاطا حلوة مشوية  صلصلة ستيك  , ذرة"
         },
         {
           "id": "8",
           "name": "بون فيليه ستيك",
           "price": "44,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/bonefillet.webp",
-          "description": "300 جرام لحم بقري امريكي  , بطاطا حلوة مشوية صلصلة ستيك , نخاع العظم , زبدة , ثوم , روز ماري"
+          "description": "300 غرام لحم بقري امريكي  , بطاطا حلوة مشوية صلصلة ستيك , نخاع العظم , زبدة , ثوم , روز ماري"
         },
         {
           "id": "9",
           "name": "توماهوك ستيك",
           "price": "130,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/tomahokk.webp",
-          "description": "1 كيلو جرام لحم بقري امريكي مُعتق  , بطاطا حلوة مشوية ,صلصلة ستيك , نخاع العظم , زبدة , ثوم , روز ماري"
+          "description": "1 كيلو غرام لحم بقري امريكي مُعتق  , بطاطا حلوة مشوية ,صلصلة ستيك , نخاع العظم , زبدة , ثوم , روز ماري"
         },
         {
           "id": "10",
           "name": "دجاج باربيكيو",
           "price": "18,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/chickensteakbbq.webp",
-          "description": "450 جرام دجاج مشوي مع صلصة الباربكيو  , بطاطا بالثوم والليمون , روز ماري"
+          "description": "450 غرام دجاج مشوي مع صلصة الباربكيو  , بطاطا بالثوم والليمون , روز ماري"
         },
         {
           "id": "11",
           "name": "فيليه ستيك",
           "price": "38,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/fillet.webp",
-          "description": "300 جرام لحم بقري امريكي  , بطاطا حلوة مشوية صلصلة ستيك , زبدة , ثوم , روز ماري"
-        },{
+          "description": "300 غرام لحم بقري امريكي  , بطاطا حلوة مشوية صلصلة ستيك , زبدة , ثوم , روز ماري"
+        },
+        {
           "id": "12",
-          "name": "كفتة شدر",
+          "name": "كفتة تشيدر",
           "price": "22,000 IQD",
           "photo": "https://masterbbqerbil.net/images/grill/cheder.webp",
-          "description": "400 جرام لحم بقري مشوي مع جبنة شدر والموزريلا , بطاطا عراقية "
+          "description": "400 غرام لحم بقري مشوي مع جبنة تشيدر والموزريلا , بطاطا عراقية "
+        },
+        {
+          "id": "1",
+          "name": "ستيك ضلوع الغنم",
+          "price": "27,000 IQD",
+          "photo": "https://masterbbqerbil.net/images/smoked/lambsteaks.webp",
+          "description": "ريش غنم مشوية، بطاطا حلوة مشوية، صلصة الستيك"
         }
       ]
     },
@@ -418,14 +433,14 @@
           "name": "ريبس امريكي مدخن",
           "price": "110,000 IQD",
           "photo": "https://masterbbqerbil.net/images/ribs/category1.webp",
-          "description": "1 كيلو جرام ضلوع بقر امريكي مدخن , فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل"
+          "description": "1 كيلو غرام ضلوع بقر امريكي مدخن , فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل"
         },
         {
           "id": "2",
           "name": "ريبس امريكي مدخن",
           "price": "55,000 IQD",
           "photo": "https://masterbbqerbil.net/images/ribs/category1.webp",
-          "description": "500 جرام ضلوع بقر امريكي مدخن , فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل"
+          "description": "500 غرام ضلوع بقر امريكي مدخن , فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل"
         }
       ]
     },
@@ -438,24 +453,24 @@
       "dishes": [
         {
           "id": "1",
-          "name": " خد لحم بقري مدخن 250 جرام",
+          "name": "خدود بقر مدخن 250 غرام",
           "price": "28,000 IQD",
           "photo": "https://masterbbqerbil.net/images/cheeks/smokedcheeks.webp",
-          "description": "خد لحم بقري مدخن 250 جرام فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل "
+          "description": "خد لحم بقري مدخن 250 غرام فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل "
         },
         {
           "id": "2",
-          "name": " خد لحم بقري مدخن 500 جرام",
+          "name": "خدود بقر مدخن 500 غرام",
           "price": "42,000 IQD",
           "photo": "https://masterbbqerbil.net/images/cheeks/smokedcheeks.webp",
-          "description": "خد لحم بقري 500  جرام فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل "
+          "description": "خد لحم بقري 500  غرام فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل "
         },
         {
           "id": "3",
-          "name": " خد لحم بقري مدخن 1 كجم",
+          "name": "خدود بقر مدخن 1 كيلو غرام",
           "price": "75,000 IQD",
           "photo": "https://masterbbqerbil.net/images/cheeks/smokedcheeks.webp",
-          "description": "خد لحم بقري مدخن 1 كيلو جرام فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل "
+          "description": "خد لحم بقري مدخن 1 كيلو غرام فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل "
         }
       ]
     },
@@ -468,24 +483,24 @@
       "dishes": [
         {
           "id": "1",
-          "name": "350 جرام لحم بريسكيت المدخن",
+          "name": "350 غرام لحم بريسكيت المدخن",
           "price": "28,000 IQD",
           "photo": "https://masterbbqerbil.net/images/brisket/category2.webp",
-          "description": "350 جرام بريسكت مدخن  , فنكر , صمون , معكرونا بالجبنة عسل , صلصة الكرز ,صلصلة الكولسلو , مخلل"
+          "description": "350 غرام بريسكت مدخن  , فنكر , صمون , معكرونا بالجبنة عسل , صلصة الكرز ,صلصلة الكولسلو , مخلل"
         },
         {
           "id": "2",
-          "name": "700 جرام لحم بريسكيت المدخن",
+          "name": "700 غرام لحم بريسكيت المدخن",
           "price": "45,000 IQD",
           "photo": "https://masterbbqerbil.net/images/brisket/category2.webp",
-          "description": "700 جرام لحم بريسكيت المدخن، فنكر , صمون , معكرونا بالجبنة عسل , صلصة الكرز ,صلصلة الكولسلو , مخلل  "
+          "description": "700 غرام لحم بريسكيت المدخن، فنكر , صمون , معكرونا بالجبنة عسل , صلصة الكرز ,صلصلة الكولسلو , مخلل  "
         },
         {
           "id": "3",
-          "name": "1 كغ من لحم بريسكيت المدخن",
+          "name": "1 كيلو غرام من لحم بريسكيت المدخن",
           "price": "75,000 IQD",
           "photo": "https://masterbbqerbil.net/images/brisket/category2.webp",
-          "description": "1 كيلو جرام من لحم بريسكيت المدخن، فنكر , صمون , معكرونا بالجبنة عسل , صلصة الكرز ,صلصلة الكولسلو , مخلل "
+          "description": "1 كيلو غرام من لحم بريسكيت المدخن، فنكر , صمون , معكرونا بالجبنة عسل , صلصة الكرز ,صلصلة الكولسلو , مخلل "
         }
       ]
     },
@@ -497,25 +512,18 @@
       "link": "dishes/smoked-lamb",
       "dishes": [
         {
-          "id": "1",
-          "name": "ستيك ضلوع الغنم",
-          "price": "27,000 IQD",
-          "photo": "https://masterbbqerbil.net/images/smoked/lambsteaks.webp",
-          "description": ""
-        },
-        {
           "id": "2",
-          "name": "لامب شانك مدخن - 500 جرام",
+          "name": "لامب شانك مدخن - 500 غرام",
           "price": "27,000 IQD",
           "photo": "https://masterbbqerbil.net/images/smoked/44.webp",
-          "description": ""
+          "description": "فنكر، معكرونة بالجبنة، صمون، عسل، صوص الكرز، صلصة كولسلو، مخلل"
         },
         {
           "id": "3",
-          "name": "ضلوع غنم مدخنة 500 جرام",
+          "name": "ضلوع غنم مدخنة 500 غرام",
           "price": "27,000 IQD",
           "photo": "https://masterbbqerbil.net/images/smoked/22.webp",
-          "description": ""
+          "description": "فنكر، معكرونة بالجبنة، صمون، عسل، صوص الكرز، صلصة كولسلو، مخلل"
         }
       ]
     },
@@ -545,21 +553,21 @@
           "name": "وجبة دجاج مع الخضار",
           "price": "14,000 IQD",
           "photo": "https://masterbbqerbil.net/images/oriental/16.webp",
-          "description": " 250 جرام دجاج , خضار مشكلة  , رز مدخن , فاصوليا بالنقانق , مكسرات"
+          "description": " 250 غرام دجاج , خضار مشكلة  , رز مدخن , فاصوليا بالنقانق , مكسرات"
         },
         {
           "id": "4",
           "name": "ضلوع غنم مدخنة مع الرز",
           "price": "24,000 IQD",
           "photo": "https://masterbbqerbil.net/images/oriental/11.webp",
-          "description": "450 جرام ضلوع غنم مدخنة  , رز مدخن , فاصوليا بالنقانق , مكسرات"
+          "description": "450 غرام ضلوع غنم مدخنة  , رز مدخن , فاصوليا بالنقانق , مكسرات"
         },
         {
           "id": "5",
           "name": "موزات غنم مدخنة",
           "price": "24,000 IQD",
           "photo": "https://masterbbqerbil.net/images/oriental/category3.webp",
-          "description": " 450 جرام موزات غنم مدخنة  , رز مدخن , فاصوليا بالنقانق , مكسرات"
+          "description": " 450 غرام موزات غنم مدخنة  , رز مدخن , فاصوليا بالنقانق , مكسرات"
         },
         {
           "id": "7",
@@ -573,28 +581,28 @@
           "name": "وجبة فاهيتا دجاج",
           "price": "12,000 IQD",
           "photo": "https://masterbbqerbil.net/images/oriental/18.webp",
-          "description": "250 جرام صدر دجاج , 200 جرام خضار  مشكلة , خبز تورتيلا , سلطة مكسيكية , جبنة موزريلا , مخلل"
+          "description": "250 غرام صدر دجاج , 200 غرام خضار  مشكلة , خبز تورتيلا , سلطة مكسيكية , جبنة موزريلا , مخلل"
         },
         {
           "id": "9",
           "name": "وجبة فاهيتا لحم",
           "price": "15,000 IQD",
           "photo": "https://masterbbqerbil.net/images/oriental/19.webp",
-          "description": "200 جرام لحم بقري , 200 جرام خضار  مشكلة , خبز تورتيلا , سلطة مكسيكية , جبنة موزريلا , مخلل "
+          "description": "200 غرام لحم بقري , 200 غرام خضار  مشكلة , خبز تورتيلا , سلطة مكسيكية , جبنة موزريلا , مخلل "
         },
         {
           "id": "10",
           "name": "كرات اللحم مع الرز",
           "price": "16,000 IQD",
           "photo": "https://masterbbqerbil.net/images/oriental/DSC02948.webp",
-          "description": "200 جرام لحم مع صلصة البندوره , رز مدخن , مكسرات"
+          "description": "200 غرام لحم مع صلصة البندوره , رز مدخن , مكسرات"
         },
         {
           "id": "11",
-          "name": "سكالوب فونحي",
+          "name": "سكالوب فونجي",
           "price": "14,000 IQD",
           "photo": "https://masterbbqerbil.net/images/oriental/scalop.webp",
-          "description": "300 جرام صدر دجاج مقرمش , 150 جرام سباكتي , خضار سوتيه , جبنة موزريلا والبرميزان"
+          "description": "300 غرام صدر دجاج مقرمش , 150 غرام سباكتي , خضار سوتيه , جبنة موزريلا والبرميزان"
         }
       ]
     },
@@ -610,35 +618,35 @@
           "name": "بوكس لشخص واحد",
           "price": "20,000 IQD",
           "photo": "https://masterbbqerbil.net/images/box/14.webp",
-          "description": "1 ساندويش بركر , 200 جرام بريسكت مدخن ,3 حلقات بصل , 50 جرام معكرونا بالجبنة, فنكر , صمون , صلصات , 1 مشروب غازي , 1 مياه"
+          "description": "1 ساندويش بركر , 200 غرام بريسكت مدخن ,3 حلقات بصل , 50 غرام معكرونا بالجبنة, فنكر , صمون , صلصات , 1 مشروب غازي , 1 مياه"
         },
         {
           "id": "2",
           "name": "بوكس لشخصين",
           "price": "28,000 IQD",
           "photo": "https://masterbbqerbil.net/images/box/11.webp",
-          "description": "2 ساندويش بركر , 200 جرام بريسكت مدخن, 6  حلقات بصل , 100 جرام معكرونا بالجبنة, فنكر , صمون , صلصات , 2 مشروب غازي , 2 مياه"
+          "description": "2 ساندويش بركر , 200 غرام بريسكت مدخن, 6  حلقات بصل , 100 غرام معكرونا بالجبنة, فنكر , صمون , صلصات , 2 مشروب غازي , 2 مياه"
         },
         {
           "id": "3",
           "name": "بوكس ل ثلاث اشخاص",
           "price": "44,000 IQD",
           "photo": "https://masterbbqerbil.net/images/box/13.webp",
-          "description": "3 ساندويش بركر , 400 جرام بريسكت مدخن, 9  حلقات بصل , 200 جرام معكرونا بالجبنة, فنكر , صمون , صلصات , 3 مشروب غازي , 3 مياه"
+          "description": "3 ساندويش بركر , 400 غرام بريسكت مدخن, 9  حلقات بصل , 200 غرام معكرونا بالجبنة, فنكر , صمون , صلصات , 3 مشروب غازي , 3 مياه"
         },
         {
           "id": "4",
           "name": "بوكس ل اربع اشخاص",
           "price": "56,000 IQD",
           "photo": "https://masterbbqerbil.net/images/box/12.webp",
-          "description": "4 ساندويش بركر , 400 جرام بريسكت مدخن, 12  حلقات بصل , 200 جرام معكرونا بالجبنة, فنكر , صمون , صلصات , 4 مشروب غازي , 4 مياه"
+          "description": "4 ساندويش بركر , 400 غرام بريسكت مدخن, 12  حلقات بصل , 200 غرام معكرونا بالجبنة, فنكر , صمون , صلصات , 4 مشروب غازي , 4 مياه"
         }
       ]
     },
     {
       "category_id": "12",
       "category": "burger",
-      "category_name": "البرجر والسانوديشات",
+      "category_name": "البرجر والساندويشات",
       "category_photo": "https://masterbbqerbil.net/images/burger/15.webp",
       "link": "dishes/burger-and-sandwiches",
       "dishes": [
@@ -647,93 +655,92 @@
           "name": "كلاسيك برجر",
           "price": "10,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/13.webp",
-          "description": "140 جرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل ، خس، طماطم, مخلل  , فنكر , صلصة كوكتيل , صلصة كولسلو ."
+          "description": "140 غرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل ، خس، طماطم, مخلل  , فنكر , صلصة كوكتيل , صلصة كولسلو ."
         },
         {
           "id": "2",
           "name": "تشيز برجر",
           "price": "11,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/14.webp",
-          "description": "140 لحم بقري مشوي , ماستر صوص , بصل مكرمل , خس , مخلل , طماطم ,  فنكر , صلصة كوكتيل , صلصة كولسلو  , جبنة شدر"
+          "description": "140 لحم بقري مشوي , ماستر صوص , بصل مكرمل , خس , مخلل , طماطم ,  فنكر , صلصة كوكتيل , صلصة كولسلو  , جبنة تشيدر"
         },
         {
           "id": "3",
           "name": "هالبينو برجر",
           "price": "11,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/16.webp",
-          "description": "140 جرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل ، هلابينو ، خس ، مخلل ، طماطم. جبنة الشيدر"
+          "description": "140 غرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل ، هلابينو ، خس ، مخلل ، طماطم. جبنة تشيدر"
         },
         {
           "id": "4",
           "name": "روكا برجر",
-          "price": "10,000 IQD",
+          "price": "11,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/18.webp",
-          "description": "140 جرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل ، جرجير. مخللات. طماطم."
+          "description": "140 غرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل ، جرجير. مخللات. طماطم."
         },
         {
           "id": "5",
           "name": "ماستر برجر",
           "price": "12,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/114.webp",
-          "description": "140 جرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل ، خس، مخلل طماطم,  فنكر , صلصة كوكتيل , صلصة كولسلو , اضافة جبنة شدر , لحم مقدد ."
+          "description": "140 غرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل ، خس، مخلل طماطم,  فنكر , صلصة كوكتيل , صلصة كولسلو , اضافة جبنة تشيدر , لحم مقدد ."
         },
         {
           "id": "7",
           "name": "مشروم برجر",
           "price": "11,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/110.webp",
-          "description": "140 جرام لحم مشوي. ماستر صوص ، بصل مكرمل ، مخلل ، مشروم ، جبنة شيدر"
+          "description": "140 غرام لحم مشوي. ماستر صوص ، بصل مكرمل ، مخلل ، مشروم ، جبنة تشيدر"
         },
         {
           "id": "8",
           "name": "تشيكن برجر",
           "price": "7,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/111.webp",
-          "description": "140 جرام دجاج مقرمش ، ماستر صوص ، مخلل ، خس ، طماطم, فنكر , صلصة كوكتيل , صلصة كولسلو "
+          "description": "140 غرام دجاج مقرمش ، ماستر صوص ، مخلل ، خس ، طماطم, فنكر , صلصة كوكتيل , صلصة كولسلو "
         },
         {
           "id": "9",
           "name": "واغيو تشيز برجر",
           "price": "13,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/112.webp",
-          "description": "140 جرام لحم بقري مشوي , ماستر صوص , بصل مكرمل , شرحيتين من جبنة الموزاريلا المقرمشة , صلصة الكوكتيل , صلصة الكرز"
+          "description": "140 غرام لحم بقري مشوي , ماستر صوص , بصل مكرمل , شرحيتين من جبنة الموزاريلا المقرمشة , صلصة الكوكتيل , صلصة الكرز"
         },
         {
           "id": "10",
           "name": "B&F برجر",
           "price": "11,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/113.webp",
-          "description": "140 جرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل  ، فنكر ، مخلل ، 2 حلقات بصل مقرمشة. جبنة الشيدر,  صلصة كوكتيل , صلصة كولسلو "
+          "description": "140 غرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل  ، فنكر ، مخلل ، 2 حلقات بصل مقرمشة. جبنة تشيدر,  صلصة كوكتيل , صلصة كولسلو "
         },
         {
           "id": "11",
           "name": "دوريتوس برجر",
           "price": "11,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/17.webp",
-          "description": "140 جرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل ، دوريتوس ، جبنة شيدر ، مخلل, فنكر , صلصة كوكتيل , صلصة كولسلو "
+          "description": "140 غرام لحم بقري مشوي ، ماستر صوص ، بصل مكرمل ، دوريتوس ، جبنة تشيدر ، مخلل, فنكر , صلصة كوكتيل , صلصة كولسلو "
         },
         {
           "id": "12",
           "name": "M&M برجر",
           "price": "16,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/15.webp",
-          "description": "140 جرام لحم بقري مشوي، 100 جرام بريسكت مدخن ، فنكر , صلصة كوكتيل , صلصة كولسلو."
+          "description": "140 غرام لحم بقري مشوي، 100 غرام بريسكت مدخن ، فنكر , صلصة كوكتيل , صلصة كولسلو."
         },
         {
           "id": "13",
           "name": "سندويتش شرحات لحم مع جبنة شيدر",
           "price": "14,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/11.webp",
-          "description": "160 جرام شرحات لحم ، 100 جرام شرحات لحم , بصل , فطر , جبنة شيدر , بصل مكرمل , ماستر صوص , فنكر , صلصة كوكتيل , صلصة كولسلو."
+          "description": "160 غرام شرحات لحم ، 100 غرام شرحات لحم , بصل , فطر , جبنة تشيدر , بصل مكرمل , ماستر صوص , فنكر , صلصة كوكتيل , صلصة كولسلو."
         },
         {
           "id": "14",
-          "name": "دبل ماستر برغر",
+          "name": "دبل ماستر برجر",
           "price": "16,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/19.webp",
-          "description": "280 جرام لحم بقري مشوي , ماستر صوص , بصل مكرمل , لحم مقدد , مخلل , جبنة شدر , فنكر , صلصة كوكتيل , صلصة كولسلو"
+          "description": "280 غرام لحم بقري مشوي , ماستر صوص , بصل مكرمل , لحم مقدد , مخلل , جبنة تشيدر , فنكر , صلصة كوكتيل , صلصة كولسلو"
         },
-
         {
           "id": "15",
           "name": "فاهيتا لحم",
@@ -741,20 +748,19 @@
           "photo": "https://masterbbqerbil.net/images/burger/203.webp",
           "description": "شرحات لحم , خضار مشكلة , جبنة موزريلا , فنكر , صلصة كوكتيل , صلصة كولسلو"
         },
-
         {
           "id": "16",
-          "name" : "فاهيتا دجاج",
+          "name": "فاهيتا دجاج",
           "price": "7,000",
           "photo": "https://masterbbqerbil.net/images/burger/12.webp",
           "description": "شرحات دجاج, خضار مشكلة , جبنة موزريلا , فنكر , صلصة كوكتيل , صلصة كولسلو"
         },
         {
           "id": "17",
-          "name": "ستيك سندويش",
+          "name": "ستيك ساندويش",
           "price": "32,000 IQD",
           "photo": "https://masterbbqerbil.net/images/burger/202.webp",
-          "description": "280 جرام لحم بقري امريكي مشوي , صلصلة ماستر , بصل مكرمل , جبنة شيدر , فنكر , شبس بطاطا مقلي"
+          "description": "280 غرام لحم بقري امريكي مشوي , صلصلة ماستر , بصل مكرمل , جبنة تشيدر , فنكر , شبس بطاطا مقلي"
         }
       ]
     },
@@ -822,21 +828,24 @@
           "price": "6,000 IQD",
           "photo": "https://masterbbqerbil.net/images/kids/DSC00616-2.webp",
           "description": ""
-        },{
+        },
+        {
           "id": "2",
           "name": "دبل ميني بركر",
           "price": "9,000 IQD",
           "photo": "https://masterbbqerbil.net/images/kids/DSC00611-2.webp",
           "description": ""
-        },{
+        },
+        {
           "id": "3",
           "name": "تربل ميني بركر",
           "price": "13,000 IQD",
           "photo": "https://masterbbqerbil.net/images/kids/DSC00609-2.webp",
           "description": ""
-        },{
+        },
+        {
           "id": "4",
-          "name": "ساندوش كريسبي",
+          "name": "ساندويش كريسبي",
           "price": "6,000 IQD",
           "photo": "https://masterbbqerbil.net/images/kids/DSC00625-2.webp",
           "description": ""
@@ -885,7 +894,6 @@
           "photo": "https://masterbbqerbil.net/images/sweets/master.webp",
           "description": ""
         },
-
         {
           "id": "4",
           "name": "اوريو كريب",
@@ -972,7 +980,6 @@
         }
       ]
     },
-
     {
       "category_id": "7",
       "category": "cold drinks",
@@ -1126,7 +1133,7 @@
             {
               "id": "10",
               "name": "كوكيز",
-              "price": "8,000 IQD",
+              "price": "6,000 IQD",
               "photo": "https://masterbbqerbil.net/images/drinks/cold/128.webp",
               "description": ""
             },
@@ -1144,7 +1151,6 @@
               "photo": "https://masterbbqerbil.net/images/drinks/cold/131.webp",
               "description": ""
             }
-
           ]
         },
         {
@@ -1301,13 +1307,15 @@
               "price": "2,000 IQD",
               "photo": "https://masterbbqerbil.net/images/drinks/cold/144.webp",
               "description": ""
-            },{
+            },
+            {
               "id": "7",
-              "name": "مياه فوارة",
+              "name": "صودا سادة",
               "price": "1,500 IQD",
               "photo": "https://masterbbqerbil.net/images/drinks/cold/141.webp",
               "description": ""
-            },{
+            },
+            {
               "id": "8",
               "name": "مياه",
               "price": "1,500 IQD",
@@ -1493,20 +1501,14 @@
     {
       "category_id": "8",
       "category": "hot drinks",
-      "category_name": "المشروبات الحارة",
+      "category_name": "المشروبات الساخنة",
       "category_photo": "https://masterbbqerbil.net/images/drinks/hot/category7.webp",
       "link": "dishes/hot-drinks",
       "dishes": [
-        {
-          "id": "1",
-          "name": "ﻧﯾوﺗﯾﻼ دي ﻛرﯾﻣﺎ",
-          "price": "7,000 IQD",
-          "photo": "https://masterbbqerbil.net/images/drinks/hot/112.webp",
-          "description": ""
-        },
+
         {
           "id": "2",
-          "name": "ﻗﮭوة ﻣوﻛﺎ",
+          "name": "قهوة موكا",
           "price": "6,000 IQD",
           "photo": "https://masterbbqerbil.net/images/drinks/hot/111.webp",
           "description": ""
@@ -1588,32 +1590,23 @@
           "photo": "https://masterbbqerbil.net/images/drinks/hot/16.webp",
           "description": ""
         },
+
+
         {
-          "id": "13",
-          "name": "كوفي موكا",
-          "price": "6,000 IQD",
-          "photo": "https://masterbbqerbil.net/images/drinks/hot/111.webp",
-          "description": ""
-        },
-        {
-          "id": "15",
-          "name": "امريكانو كافيه",
-          "price": "5,000 IQD",
-          "photo": "https://masterbbqerbil.net/images/drinks/hot/115.webp",
-          "description": ""
-        }, {
           "id": "15",
           "name": "قهوة امريكانو",
           "price": "5,000 IQD",
           "photo": "https://masterbbqerbil.net/images/drinks/hot/15.webp",
           "description": ""
-        }, {
+        },
+        {
           "id": "15",
           "name": "قهوة ماكياتو",
           "price": "3,000 IQD",
           "photo": "https://masterbbqerbil.net/images/drinks/hot/18.webp",
           "description": ""
-        }, {
+        },
+        {
           "id": "15",
           "name": "سبانش لاتيه",
           "price": "7,000 IQD",
@@ -1627,20 +1620,7 @@
           "photo": "https://masterbbqerbil.net/images/drinks/hot/19.webp",
           "description": ""
         },
-        {
-          "id": "17",
-          "name": "ماكياتو",
-          "price": "3,000 IQD",
-          "photo": "https://masterbbqerbil.net/images/drinks/hot/17.webp",
-          "description": ""
-        },
-        {
-          "id": "18",
-          "name": "كمون ليمون",
-          "price": "2,000 IQD",
-          "photo": "https://masterbbqerbil.net/images/drinks/hot/113.webp",
-          "description": ""
-        },
+
         {
           "id": "19",
           "name": "سينامون تي",
@@ -1650,7 +1630,7 @@
         },
         {
           "id": "20",
-          "name": "ﻛﻣون و ﻟﯾﻣون",
+          "name": "كمون وليمون",
           "price": "2,000 IQD",
           "photo": "https://masterbbqerbil.net/images/drinks/hot/121.webp",
           "description": ""
@@ -1963,12 +1943,5 @@
         }
       ]
     }
-
-
-
-
-
-
-
   ]
 }
