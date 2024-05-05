@@ -440,8 +440,7 @@
           "name": "ريبس امريكي مدخن",
           "price": "55,000 IQD",
           "photo": "https://masterbbqerbil.net/images/ribs/category1.webp",
-          "description": "1 كيلو غرام ضلوع بقر امريكي مدخن , فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل",
-
+          "description": "1 كيلو غرام ضلوع بقر امريكي مدخن , فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل"
         }
       ]
     },
@@ -464,14 +463,14 @@
           "name": "خدود بقر مدخن 500 غرام",
           "price": "42,000 IQD",
           "photo": "https://masterbbqerbil.net/images/cheeks/smokedcheeks.webp",
-          "description": "خد بقر مدخن 500  غرام فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل "
+          "description": "خدود بقر مدخن 500  غرام فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل "
         },
         {
           "id": "3",
           "name": "خدود بقر مدخن 1 كيلو غرام",
           "price": "75,000 IQD",
           "photo": "https://masterbbqerbil.net/images/cheeks/smokedcheeks.webp",
-          "description": "خد بقر مدخن 1 كيلو غرام فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل "
+          "description": "خدود بقر مدخن 1 كيلو غرام فنكر , صمون , معكرونا بالجبنة , عسل , صلصلة الكرز , صلصة الكولسلو , مخلل "
         }
       ]
     },
@@ -1506,7 +1505,6 @@
       "category_photo": "https://masterbbqerbil.net/images/drinks/hot/category7.webp",
       "link": "dishes/hot-drinks",
       "dishes": [
-
         {
           "id": "2",
           "name": "قهوة موكا",
@@ -1591,8 +1589,6 @@
           "photo": "https://masterbbqerbil.net/images/drinks/hot/16.webp",
           "description": ""
         },
-
-
         {
           "id": "15",
           "name": "قهوة امريكانو",
@@ -1621,7 +1617,6 @@
           "photo": "https://masterbbqerbil.net/images/drinks/hot/19.webp",
           "description": ""
         },
-
         {
           "id": "19",
           "name": "سينامون تي",
