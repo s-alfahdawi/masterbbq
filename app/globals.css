@@ -464,3 +464,12 @@ hr {
 .card-title-start {
     text-align: right;
 }
+
+
+
+@media (min-width: 220px) {
+    /* Apply text size 2xl for small screens and above */
+    .sm-font-5xl {
+        font-size: 3.5rem !important; /* Adjust this value according to your design */
+    }
+}
