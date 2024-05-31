@@ -1,5 +1,5 @@
 "use client";
-import { menu } from "../../_api/menu.json";
+// import { menu } from "../../_api/menu.json";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
@@ -8,9 +8,9 @@ export default function SmokedLamb() {
   const keys = ["1", "2"];
   const s = useTranslations("categories");
   const categoryKey = ["smoked"];
-  const SmokedlambCategory = menu.find(
-    (category) => category.category_id === "15"
-  );
+  // const SmokedlambCategory = menu.find(
+  //   (category) => category.category_id === "15"
+  // );
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 

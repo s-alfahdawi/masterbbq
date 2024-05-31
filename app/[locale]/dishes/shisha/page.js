@@ -1,7 +1,9 @@
-import { menu } from "../../_api/menu.json";
+import menuData from "../../_api/menu.json";
 
 export default function Shisha() {
-  const shishaCategory = menu.find((category) => category.category_id === "9");
+  const shishaCategory = menuData?.menu?.find(
+    (category) => category.category_id === "9"
+  );
 
   if (shishaCategory) {
     const { subcategories } = shishaCategory;

@@ -1,5 +1,5 @@
 "use client";
-import { menu } from "../../_api/menu.json";
+// import { menu } from "../../_api/menu.json";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
@@ -26,7 +26,7 @@ export default function Sweets() {
   ];
   const s = useTranslations("categories");
   const categoryKey = ["sweets"];
-  const SweetsCategory = menu.find((category) => category.category_id === "10");
+  // const SweetsCategory = menu.find((category) => category.category_id === "10");
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 
