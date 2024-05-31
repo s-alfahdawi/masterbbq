@@ -1,0 +1,15 @@
+
+import Header from "@/src/app/[locale]/_components/layout/Header/Header";
+import Footer from "@/src/app/[locale]/_components/layout/footer/Footer";
+
+
+export default function Layout({ children }) {
+    return (
+        <div className=" mx-auto">
+
+            <Header />
+            <main>{children}</main>
+            <Footer />
+        </div>
+    )
+}
