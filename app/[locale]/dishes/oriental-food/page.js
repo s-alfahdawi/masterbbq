@@ -2,7 +2,6 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import fs from "fs";
 
 export default async function Oriental() {
   const t = useTranslations("oriental");
