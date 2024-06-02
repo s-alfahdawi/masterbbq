@@ -1,14 +1,10 @@
-import createMiddleware from 'next-intl/middleware';
+import createNextIntlPlugin from "next-intl/plugin";
 
-export default createMiddleware({
-    // A list of all locales that are supported
-    locales: ['en', 'ar', 'kr'],
+const withNextIntl = createNextIntlPlugin();
 
-    // Used when no locale matches
-    defaultLocale: 'ar'
-});
-
-export const config = {
-    // Match only internationalized pathnames
-    matcher: ['/', '/(ar|en|kr)/:path*']
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  
 };
+
+export default withNextIntl(nextConfig);
