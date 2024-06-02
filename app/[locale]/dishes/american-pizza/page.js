@@ -1,16 +1,22 @@
 "use client";
-import { menu } from "../../_api/menu.json";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { promises as fs } from 'fs';
 
-export default function Pizza() {
+
+export default async function Pizza() {
   const t = useTranslations("american pizza");
   const keys = ["1", "2", "3", "4", "5", "6"];
   const s = useTranslations("categories");
   const categoryKey = ["american_pizza"];
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
-  const PizzaCategory = menu.find((category) => category.category_id === "11");
+
+  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
+  const data = JSON.parse(file);
+
+
+  const PizzaCategory = data.find((category) => category.category_id === "11");
 
   const handleOpenModal = (image) => {
     setSelectedImage(image);
