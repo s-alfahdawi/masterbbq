@@ -9,13 +9,6 @@ export default async function Salads({ locale }) {
   const s = useTranslations("categories");
   const categoryKey = ["salads"];
 
-
-  const fs = await import('fs');
-
-  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
-  const data = JSON.parse(file);
-  
-  const SaladsCategory = data.find((category) => category.category_id === "6");
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 

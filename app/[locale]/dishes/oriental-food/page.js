@@ -10,12 +10,6 @@ export default async function Oriental() {
   const s = useTranslations("categories");
   const categoryKey = ["oriental_food"];
 
-  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
-  const data = JSON.parse(file);
-  
-  const OrientalCategory = data.find(
-    (category) => category.category_id === "3"
-  );
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 

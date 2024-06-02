@@ -8,13 +8,6 @@ export default async function CowCheeks() {
   const s = useTranslations("categories");
   const categoryKey = ["cow"];
 
-  const fs = await import('fs');
-  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
-  const data = JSON.parse(file);
-
-  const CowcheeksCategory = data.find(
-    (category) => category.category_id === "16"
-  );
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
   const handleOpenModal = (image) => {

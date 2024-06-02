@@ -36,13 +36,6 @@ export default async function HotAppetizers() {
   const categoryKey = ["hot_appetizers"];
 
 
-  const fs = await import('fs');
-  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
-  const data = JSON.parse(file);
-
-  const HotAppetizersCategory = data.find(
-    (category) => category.category_id === "4"
-  );
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 
