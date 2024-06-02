@@ -1,17 +1,16 @@
 
-// import fs from "fs";
+"use client";
 
-export default async function Shisha() {
+import { useTranslations } from "next-intl";
 
-  const file = fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
-  const data = JSON.parse(file);
-  
-  const shishaCategory = data?.menu?.find(
-    (category) => category.category_id === "9"
-  );
+export default function Shisha() {
 
-  if (shishaCategory) {
-    const { subcategories } = shishaCategory;
+  const t = useTranslations("shisha");
+  const keys = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
+  const s = useTranslations("categories");
+  const categoryKey = ["shisha"];
+
+  return (<div>test</div>)
 
     return (
       <div>
@@ -19,7 +18,7 @@ export default async function Shisha() {
           <div
             className="hero"
             style={{
-              backgroundImage: `url(${shishaCategory.category_photo})`,
+              backgroundImage: `url(${s(`${categoryKey}.category_photo`)})`,
               minHeight: "450px",
             }}
           >
@@ -27,7 +26,7 @@ export default async function Shisha() {
             <div className="hero-content text-center text-neutral-content">
               <div className="max-w-md">
                 <h1 className="mb-5 text-5xl text-white font-bold">
-                  {shishaCategory.category_name}
+                {s(`${categoryKey}.category_name`)}
                 </h1>
               </div>
             </div>
@@ -36,8 +35,7 @@ export default async function Shisha() {
         <div className="container mx-auto px-4  py-8">
           <div className="grid grid-cols-1 gap-4 md:gap-1 ">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  ml-auto mr-auto lg:gap-x-40 gap-x-30 md:gap-x-10 gap-y-10">
-              {subcategories &&
-                subcategories.map((subcategory) => (
+              {keys.map((subcategory) => (
                   <div key={subcategory.id} className="max-w-xl">
                     <div className="card bg-base-100 shadow-xl mx-auto">
                       <div className="image-container">
@@ -80,7 +78,4 @@ export default async function Shisha() {
         </div>
       </div>
     );
-  } else {
-    return <h1>Category not found</h1>;
-  }
 }
