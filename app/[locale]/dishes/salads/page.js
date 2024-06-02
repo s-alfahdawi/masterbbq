@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
-export default async function Salads({ locale }) {
+export default async function Salads() {
   const t = useTranslations("salads");
   const keys = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
   const s = useTranslations("categories");
