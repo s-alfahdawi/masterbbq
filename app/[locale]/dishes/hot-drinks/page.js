@@ -1,3 +1,4 @@
+"use client";
 
 
 import { useState } from "react";
@@ -28,13 +29,8 @@ export default async function HotAppetizers() {
   ];
   const t = useTranslations("hot-drinks");
 
-  const fs = await import('fs');
-  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
-  const data = JSON.parse(file);
-  
-  const HotdrinksCategory = data.find(
-    (category) => category.category_id === "8"
-  );
+  const categoryKey = ["hot_drinks"];
+
 
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -49,14 +45,13 @@ export default async function HotAppetizers() {
     setIsOpen(false);
   };
 
-  if (HotdrinksCategory) {
     return (
       <div>
         <div className="">
           <div
             className="hero"
             style={{
-              backgroundImage: `url(${HotdrinksCategory.category_photo})`,
+              backgroundImage: `url(${t(`${categoryKey}.category_photo`)})`,
               minHeight: "450px",
             }}
           >
@@ -64,7 +59,7 @@ export default async function HotAppetizers() {
             <div className="hero-content text-center text-neutral-content">
               <div className="max-w-md">
                 <h1 className="mb-5 text-5xl text-white font-bold">
-                  {HotdrinksCategory.category_name}
+                {t(`${categoryKey}.category_name`)}
                 </h1>
               </div>
             </div>
@@ -120,7 +115,5 @@ export default async function HotAppetizers() {
         )}
       </div>
     );
-  } else {
-    return <h1>Category not found</h1>;
-  }
+ 
 }
