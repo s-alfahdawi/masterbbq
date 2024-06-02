@@ -1,7 +1,6 @@
 "use client";
 
-import { promises as fs } from 'fs';
-import { useState } from "react";
+import { fs } from 'fs';import { useState } from "react";
 import { useTranslations } from "next-intl";
 
 export default async function HotAppetizers() {
@@ -35,7 +34,7 @@ export default async function HotAppetizers() {
   const HotdrinksCategory = data.find(
     (category) => category.category_id === "8"
   );
-  
+
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 

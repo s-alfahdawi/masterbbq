@@ -4,8 +4,7 @@ import Image from "next/image";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
-import { promises as fs } from 'fs';
-
+import { fs } from 'fs';
 
 export default async function ColdDrinks() {
   const c = useTranslations("categories");
