@@ -11,14 +11,7 @@ export default async function ColdAppetizers() {
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 
-  const fs = await import('fs');
-  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
-  const data = JSON.parse(file);
 
-
-  const ColdAppetizersCategory = data.find(
-    (category) => category.category_id === "5"
-  );
   const handleOpenModal = (image) => {
     setSelectedImage(image);
     setIsOpen(true);

@@ -58,14 +58,6 @@ export default async function ColdDrinks() {
   const keys_e = ["1", "2", "3", "4", "5"];
   const e = useTranslations("مشروبات الطاقة");
 
-  const fs = await import('fs');
-
-  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
-  const data = JSON.parse(file);
-
-  const coldDrinksCategory = data.find(
-    (category) => category.category_id === "7"
-  );
 
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
@@ -79,9 +71,6 @@ export default async function ColdDrinks() {
     setSelectedImage(null);
     setIsOpen(false);
   };
-
-  if (coldDrinksCategory) {
-    const { subcategories } = coldDrinksCategory;
 
     return (
       <div>
@@ -476,7 +465,5 @@ export default async function ColdDrinks() {
         )}
       </div>
     );
-  } else {
-    return <h1>Category not found</h1>;
-  }
+ 
 }

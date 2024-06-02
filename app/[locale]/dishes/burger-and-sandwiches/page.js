@@ -29,12 +29,7 @@ export default async function Burger() {
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 
-  const fs = await import('fs');
-  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
-  const data = JSON.parse(file);
-
-  const BurgerCategory = data.find((category) => category.category_id === "12");
-
+ 
   const handleOpenModal = (image) => {
     setSelectedImage(image);
     setIsOpen(true);
