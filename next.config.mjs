@@ -21,7 +21,8 @@ const withNextIntl = createNextIntlPlugin();
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   i18n: {
-  defaultLocale: 'ar',
+    locales: ['en-US', 'ar', 'kr'],
+    defaultLocale: 'ar',
   },
 
   
