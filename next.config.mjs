@@ -20,6 +20,7 @@ const withNextIntl = createNextIntlPlugin();
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  defaultLocale: 'ar',
   images: {
     remotePatterns: [
       {
