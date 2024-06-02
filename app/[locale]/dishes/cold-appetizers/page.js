@@ -2,7 +2,7 @@
 import { menu } from "../../_api/menu.json";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import fs from "fs";
+
 export default async function ColdAppetizers() {
   const t = useTranslations("cold appetizers");
   const keys = ["1", "2", "3", "4", "5", "6", "7"];
@@ -11,6 +11,7 @@ export default async function ColdAppetizers() {
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 
+  const fs = await import('fs');
   const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
   const data = JSON.parse(file);
 

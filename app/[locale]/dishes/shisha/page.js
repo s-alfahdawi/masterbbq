@@ -1,8 +1,7 @@
-import fs from "fs";
 
 export default async function Shisha() {
 
-
+  const fs = await import('fs');
   const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
   const data = JSON.parse(file);
   

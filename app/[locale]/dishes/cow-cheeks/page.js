@@ -1,5 +1,4 @@
 "use client";
-import fs from "fs";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
@@ -9,6 +8,7 @@ export default async function CowCheeks() {
   const s = useTranslations("categories");
   const categoryKey = ["cow"];
 
+  const fs = await import('fs');
   const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
   const data = JSON.parse(file);
 

@@ -1,6 +1,7 @@
 "use client";
 
-import fs from "fs";import { useState } from "react";
+
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 
 export default async function Burger() {
@@ -28,6 +29,7 @@ export default async function Burger() {
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 
+  const fs = await import('fs');
   const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
   const data = JSON.parse(file);
 

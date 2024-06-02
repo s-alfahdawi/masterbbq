@@ -1,7 +1,6 @@
 "use client";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import fs from "fs";
 
 export default async function Pizza() {
   const t = useTranslations("american pizza");
@@ -11,7 +10,8 @@ export default async function Pizza() {
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 
-  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
+  const fs = await import('fs');
+  const file =  fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
   const data = JSON.parse(file);
 
 

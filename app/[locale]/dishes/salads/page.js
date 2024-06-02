@@ -1,5 +1,6 @@
 "use client";
-import fs from "fs";import { useState } from "react";
+
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 
 export default async function Salads({ locale }) {
@@ -7,6 +8,9 @@ export default async function Salads({ locale }) {
   const keys = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12"];
   const s = useTranslations("categories");
   const categoryKey = ["salads"];
+
+
+  const fs = await import('fs');
 
   const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
   const data = JSON.parse(file);

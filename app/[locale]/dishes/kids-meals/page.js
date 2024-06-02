@@ -79,7 +79,8 @@
 //
 // }
 "use client";
-import fs from "fs";import { useState } from "react";
+
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 
 export default async function KidsMeals() {
@@ -87,6 +88,8 @@ export default async function KidsMeals() {
   const keys = ["1", "2", "3", "4"];
   const s = useTranslations("categories");
   const categoryKey = ["kids_meals"];
+
+  const fs = await import('fs');
 
   const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
   const data = JSON.parse(file);
