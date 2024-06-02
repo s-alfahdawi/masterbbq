@@ -1,6 +1,6 @@
 "use client";
 
-import { fs } from 'fs';import { useState } from "react";
+import fs from "fs";import { useState } from "react";
 import { useTranslations } from "next-intl";
 
 export default async function HotAppetizers() {

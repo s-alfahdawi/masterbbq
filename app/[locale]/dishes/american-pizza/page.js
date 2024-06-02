@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { fs } from 'fs';
+import fs from "fs";
 
 export default async function Pizza() {
   const t = useTranslations("american pizza");

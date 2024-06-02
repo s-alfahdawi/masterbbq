@@ -2,7 +2,7 @@
 import { menu } from "../../_api/menu.json";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
-import { fs } from 'fs';
+import fs from "fs";
 export default async function ColdAppetizers() {
   const t = useTranslations("cold appetizers");
   const keys = ["1", "2", "3", "4", "5", "6", "7"];

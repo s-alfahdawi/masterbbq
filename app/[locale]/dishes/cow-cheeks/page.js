@@ -1,5 +1,5 @@
 "use client";
-import { fs } from 'fs';
+import fs from "fs";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
