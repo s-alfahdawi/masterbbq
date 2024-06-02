@@ -10,12 +10,6 @@ export default async function Pizza() {
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 
-  const fs = await import('fs');
-  const file =  fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
-  const data = JSON.parse(file);
-
-
-  const PizzaCategory = data.find((category) => category.category_id === "11");
 
   const handleOpenModal = (image) => {
     setSelectedImage(image);

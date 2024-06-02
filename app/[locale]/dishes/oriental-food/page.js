@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import fs from "fs";
 
 export default async function Oriental() {
   const t = useTranslations("oriental");
@@ -9,7 +10,6 @@ export default async function Oriental() {
   const s = useTranslations("categories");
   const categoryKey = ["oriental_food"];
 
-  const fs = await import('fs');
   const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
   const data = JSON.parse(file);
   
