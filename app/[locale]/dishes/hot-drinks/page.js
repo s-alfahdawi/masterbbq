@@ -1,10 +1,10 @@
 "use client";
 
-import { menu } from "../../_api/menu.json";
+import { promises as fs } from 'fs';
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
-export default function HotAppetizers() {
+export default async function HotAppetizers() {
   const keys = [
     "1",
     "2",
@@ -28,9 +28,14 @@ export default function HotAppetizers() {
     "20",
   ];
   const t = useTranslations("hot-drinks");
-  const HotdrinksCategory = menu.find(
+
+  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
+  const data = JSON.parse(file);
+  
+  const HotdrinksCategory = data.find(
     (category) => category.category_id === "8"
   );
+  
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 

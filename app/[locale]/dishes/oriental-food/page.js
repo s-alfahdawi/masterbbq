@@ -1,14 +1,18 @@
 "use client";
-import { menu } from "../../_api/menu.json";
+import { promises as fs } from 'fs';
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
-export default function Oriental() {
+export default async function Oriental() {
   const t = useTranslations("oriental");
   const keys = ["1", "2", "3", "4", "5", "6", "7", "8", "9", "10"];
   const s = useTranslations("categories");
   const categoryKey = ["oriental_food"];
-  const OrientalCategory = menu.find(
+
+  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
+  const data = JSON.parse(file);
+  
+  const OrientalCategory = data.find(
     (category) => category.category_id === "3"
   );
   const [selectedImage, setSelectedImage] = useState(null);

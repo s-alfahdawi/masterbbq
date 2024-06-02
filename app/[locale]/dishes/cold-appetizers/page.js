@@ -2,15 +2,21 @@
 import { menu } from "../../_api/menu.json";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { promises as fs } from 'fs';
 
-export default function ColdAppetizers() {
+export default async function ColdAppetizers() {
   const t = useTranslations("cold appetizers");
   const keys = ["1", "2", "3", "4", "5", "6", "7"];
   const s = useTranslations("categories");
   const categoryKey = ["cold_appetizers"];
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
-  const ColdAppetizersCategory = menu.find(
+
+  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
+  const data = JSON.parse(file);
+
+
+  const ColdAppetizersCategory = data.find(
     (category) => category.category_id === "5"
   );
   const handleOpenModal = (image) => {

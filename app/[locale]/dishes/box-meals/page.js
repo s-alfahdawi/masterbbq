@@ -1,14 +1,17 @@
 "use client";
-import { menu } from "../../_api/menu.json";
+import { promises as fs } from 'fs';
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
-export default function BoxMeal() {
+export default async function BoxMeal() {
   const t = useTranslations("box");
   const keys = ["1", "2", "3", "4"];
   const s = useTranslations("categories");
   const categoryKey = ["box"];
-  const BoxCategory = menu.find((category) => category.category_id === "13");
+  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
+  const data = JSON.parse(file);
+  
+  const BoxCategory = data.find((category) => category.category_id === "13");
 
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);

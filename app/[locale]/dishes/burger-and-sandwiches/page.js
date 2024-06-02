@@ -1,10 +1,10 @@
 "use client";
 
-import { menu } from "../../_api/menu.json";
+import { promises as fs } from 'fs';
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
-export default function Burger() {
+export default async function Burger() {
   const t = useTranslations("burger");
   const keys = [
     "1",
@@ -29,7 +29,10 @@ export default function Burger() {
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
 
-  const BurgerCategory = menu.find((category) => category.category_id === "12");
+  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
+  const data = JSON.parse(file);
+
+  const BurgerCategory = data.find((category) => category.category_id === "12");
 
   const handleOpenModal = (image) => {
     setSelectedImage(image);

@@ -79,16 +79,20 @@
 //
 // }
 "use client";
-import { menu } from "../../_api/menu.json";
+import { promises as fs } from 'fs';
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
-export default function KidsMeals() {
+export default async function KidsMeals() {
   const t = useTranslations("kids meals");
   const keys = ["1", "2", "3", "4"];
   const s = useTranslations("categories");
   const categoryKey = ["kids_meals"];
-  const KidsMealsCategory = menu.find(
+
+  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
+  const data = JSON.parse(file);
+  
+  const KidsMealsCategory = data.find(
     (category) => category.category_id === categoryKey
   );
   const [selectedImage, setSelectedImage] = useState(null);

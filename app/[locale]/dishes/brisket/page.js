@@ -1,17 +1,24 @@
 "use client";
-import { menu } from "../../_api/menu.json";
 import Image from "next/image";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
+import { promises as fs } from 'fs';
 
-export default function BoxMeal() {
+
+export default async function BoxMeal() {
   const t = useTranslations("brisket");
   const keys = ["1", "2", "3"];
   const s = useTranslations("categories");
   const categoryKey = ["brisket"];
   const [selectedImage, setSelectedImage] = useState(null);
   const [isOpen, setIsOpen] = useState(false);
-  const BrisketCategory = menu.find(
+
+  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
+  const data = JSON.parse(file);
+  
+
+
+  const BrisketCategory = data.find(
     (category) => category.category_id === "14"
   );
   const handleOpenModal = (image) => {

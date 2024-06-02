@@ -1,15 +1,19 @@
 "use client";
-import { menu } from "../../_api/menu.json";
+import { promises as fs } from 'fs';
 
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 
-export default function CowCheeks() {
+export default async function CowCheeks() {
   const t = useTranslations("cow");
   const keys = ["1", "2", "3"];
   const s = useTranslations("categories");
   const categoryKey = ["cow"];
-  const CowcheeksCategory = menu.find(
+
+  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
+  const data = JSON.parse(file);
+
+  const CowcheeksCategory = data.find(
     (category) => category.category_id === "16"
   );
   const [selectedImage, setSelectedImage] = useState(null);

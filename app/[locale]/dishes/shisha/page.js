@@ -1,7 +1,13 @@
-import menuData from "../../_api/menu.json";
+import { promises as fs } from 'fs';
 
-export default function Shisha() {
-  const shishaCategory = menuData?.menu?.find(
+
+export default async function Shisha() {
+
+
+  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
+  const data = JSON.parse(file);
+  
+  const shishaCategory = data?.menu?.find(
     (category) => category.category_id === "9"
   );
 

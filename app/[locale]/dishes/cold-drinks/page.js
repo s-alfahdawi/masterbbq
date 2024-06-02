@@ -1,12 +1,13 @@
 "use client";
 
-import { menu } from "../../_api/menu.json";
 import Image from "next/image";
 import { useState } from "react";
 import { useTranslations } from "next-intl";
 import Link from "next/link";
+import { promises as fs } from 'fs';
 
-export default function ColdDrinks() {
+
+export default async function ColdDrinks() {
   const c = useTranslations("categories");
   const categoryKey = ["cold-drinks"];
   const keys = [
@@ -58,7 +59,11 @@ export default function ColdDrinks() {
   const keys_e = ["1", "2", "3", "4", "5"];
   const e = useTranslations("مشروبات الطاقة");
 
-  const coldDrinksCategory = menu.find(
+
+  const file = await fs.readFile(process.cwd() + '../../_api/menu.json', 'utf8');
+  const data = JSON.parse(file);
+
+  const coldDrinksCategory = data.find(
     (category) => category.category_id === "7"
   );
 
