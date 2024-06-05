@@ -423,8 +423,7 @@ hr {
 
 
 .language {
-    pointer-events: none;
-    cursor: default;
+  cursor: pointer;
 }
 
 .bg-base-100 {
