@@ -12,7 +12,7 @@ export default function Contact() {
             <nav className="w-full hover:text-white/100 md:w-auto mb-4 md:mb-0 md:mr-4  flex flex-col items-center">
 
                 <Image src={location} alt={location} width={30} height={30}/>
-                <p style={{maxWidth: '200px'}}>من الساعة 12:00 ظهرا وحتى 12:00 مساء</p>
+                <p style={{maxWidth: '200px'}}>لە (12:00) نیوەڕۆ تا (12:00) ئێوارە</p>
             </nav>
             <nav
                 className="w-full hover:text-white/100 md:w-auto mb-4 md:mb-0 md:mr-4 text-right flex flex-col items-center">
@@ -25,13 +25,13 @@ export default function Contact() {
             <nav className="w-full hover:text-white/100 md:w-auto flex flex-col items-center">
                 <Image src={time} alt={time} width={30} height={30}/>
                 <p style={{maxWidth: '200px'}}>
-                    شارع 100 متر
+                    100 st
                     <br/>
-                    سايدين تويوتا ساز
+                    Toyota Dealership Road
                     <br/>
                     MRF 5
                     <br/>
-                    مقابل حديقة ساكورا
+                    Sakura park
                 </p>
             </nav>
             <aside className="w-full md:w-72 mb-6 md:mb-0 md:mr-6">

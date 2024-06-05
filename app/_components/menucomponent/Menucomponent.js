@@ -10,7 +10,7 @@ const Menu = ({categories}) => {
         <div className="mt-10">
             <div className="hero-content  w-full ml-auto mr-auto text-center text-neutral-content">
                 <div className="max-w-md">
-                    <h1 className="mb-5 text-5xl text-white font-bold">قائمة الطعام</h1>
+                    <h1 className="mb-5 text-5xl text-white font-bold">ليست</h1>
                 </div>
             </div>
             <div className="container mx-auto px-4 py-8">

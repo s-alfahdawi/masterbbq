@@ -26,10 +26,10 @@ export default function Navbar() {
                             </ul>
                         </details>
 
-                        <li><Link href="https://wa.me/9647727072244" target="_blank" rel="noopener noreferrer">احجز
-                            طاولة</Link></li>
-                        <li><Link href="/menu">المنيو</Link></li>
-                        <li><Link href="/">الرئيسية</Link></li>
+                        <li><Link href="https://wa.me/9647727072244" target="_blank" rel="noopener noreferrer">
+                            حجزکردنی مێز</Link></li>
+                        <li><Link href="/menu">لیست</Link></li>
+                        <li><Link href="/">ماڵپەڕی سەرەکی</Link></li>
 
                     </ul>
                 </div>
