@@ -421,10 +421,8 @@ hr {
     border-radius: 0.5rem;
 }
 
-
-.language {
-    pointer-events: none;
-    cursor: default;
+.language{
+    cursor: pointer;
 }
 
 .bg-base-100 {

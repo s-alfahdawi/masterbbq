@@ -1,11 +1,11 @@
-import {Tajawal} from "next/font/google";
+import {IBM_Plex_Sans_Arabic} from "next/font/google";
 import {Noto_Naskh_Arabic} from "next/font/google";
 import {Cairo} from "next/font/google"
 import "./globals.css";
 import Layout from "@/app/_components/layout/Layout";
 import Head from "next/head";
 
-const tajawal = Tajawal({weight: ["300", "400", "500", "700"], subsets: ["arabic"]});
+const tajawal = IBM_Plex_Sans_Arabic({weight: ["200", "300", "400", "500", "700"], subsets: ["arabic"]});
 const notoNaskhArabic = Noto_Naskh_Arabic({subsets: ["arabic"]});
 const cairo = Cairo({weight: ["300", "400", "500", "700"], subsets: ["arabic"]});
 
