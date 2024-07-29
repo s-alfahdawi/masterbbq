@@ -13,8 +13,8 @@ export default function Navbar() {
                             <summary className="m-2 language">العربية</summary>
                             <ul className="p-2 shadow menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
                                 <li>
-                                    <Link className="text-gray-500 hover:text-white" href="https://masterbbqerbil.com">
-                                        العربية
+                                    <Link className="text-gray-500 hover:text-white" href="https://masterbbqerbil.net">
+                                        English
                                     </Link>
 
                                 </li>
